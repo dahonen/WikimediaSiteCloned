@@ -12,31 +12,34 @@ html, body, header {
   background-color: #fff;
   float: left;
   margin-left: 100px;
-  text-align: center;
+  text-align: left;
 }
 
 .container {
-  width: 80%;
+  width: 75%;
   margin-left: 100px;
   font-size: 25px;
-  font-family: 
-  
+  font-family:;
+  text-align: left;
+  margin-top: 25px;
 }
 p {
   text-align: right;
-  margin-right: 150px;
+  /*margin-right: 300px;*/
   font-size: 25px;
+  font-weight: bold;
+  text-decoration: none;
+
+}
+
+p2 {
   font-weight: bold;
 }
 
-p1 {
-  font-weight:
-}
-
 img {
-  height: 180px;  
-  /* width: 150px; */
-  margin-top: 5px
+  height: 150px;  
+  width: 135px;
+  margin-top: 5px;
 }
 footer {
   position: relative;
@@ -44,5 +47,13 @@ footer {
   height: 180px;
   clear:both;
   text-align: center;
-  padding: 5px
+  padding: 5px;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+h6 {
+  font-family: serif;
+  font-weight: normal;
+  font-size: 25px;
+  text-decoration: none;
 }
